@@ -567,16 +567,16 @@ class PentBoardApp(App):
         padding: 0 2;
     }
     .stat-box.stat-targets {
-        border: solid bright_green;
+        border: solid #00ff00;
     }
     .stat-box.stat-compromised {
-        border: solid bright_yellow;
+        border: solid #ffff00;
     }
     .stat-box.stat-critical {
         border: solid red;
     }
     .stat-box.stat-high {
-        border: solid dark_orange;
+        border: solid #ff8c00;
     }
     #engagement-info {
         height: 3;
