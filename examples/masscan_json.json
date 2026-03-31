@@ -1,0 +1,13 @@
+[
+{"ip": "10.0.0.1", "timestamp": "1711792800", "ports": [{"port": 22, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.1", "timestamp": "1711792800", "ports": [{"port": 80, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.1", "timestamp": "1711792800", "ports": [{"port": 443, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.1", "timestamp": "1711792800", "ports": [{"port": 53, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.5", "timestamp": "1711792801", "ports": [{"port": 22, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.5", "timestamp": "1711792801", "ports": [{"port": 80, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.5", "timestamp": "1711792801", "ports": [{"port": 443, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.5", "timestamp": "1711792801", "ports": [{"port": 3306, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.5", "timestamp": "1711792801", "ports": [{"port": 8080, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.10", "timestamp": "1711792802", "ports": [{"port": 22, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]},
+{"ip": "10.0.0.10", "timestamp": "1711792802", "ports": [{"port": 5432, "proto": "tcp", "status": "open", "reason": "syn-ack", "ttl": 64}]}
+]

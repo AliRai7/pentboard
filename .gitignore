@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv
+venv/
+*.db
+*.sqlite
+.textual/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Obsidian
+.obsidian/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/settings.json
+
+# Private dev files
+.claude/
+CLAUDE.md
+.kb/
+setup.ps1
+
+# Private dev files
+.claude/
+CLAUDE.md
+.kb/
+setup.ps1

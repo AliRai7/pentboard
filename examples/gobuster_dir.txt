@@ -1,0 +1,37 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.0.0.5
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Status codes:            200,204,301,302,307,401,403
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.env                 (Status: 200) [Size: 890]
+/.git/config          (Status: 200) [Size: 234]
+/.htaccess            (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/admin                (Status: 200) [Size: 4523]
+/api                  (Status: 301) [Size: 312] [--> http://10.0.0.5/api/]
+/backup               (Status: 301) [Size: 315] [--> http://10.0.0.5/backup/]
+/config               (Status: 403) [Size: 278]
+/css                  (Status: 301) [Size: 312] [--> http://10.0.0.5/css/]
+/dashboard            (Status: 302) [Size: 0] [--> /login]
+/debug                (Status: 200) [Size: 12456]
+/images               (Status: 301) [Size: 315] [--> http://10.0.0.5/images/]
+/index.html           (Status: 200) [Size: 10834]
+/js                   (Status: 301) [Size: 311] [--> http://10.0.0.5/js/]
+/login                (Status: 200) [Size: 2345]
+/phpinfo.php          (Status: 200) [Size: 56789]
+/robots.txt           (Status: 200) [Size: 123]
+/server-status        (Status: 403) [Size: 278]
+/uploads              (Status: 301) [Size: 316] [--> http://10.0.0.5/uploads/]
+/wp-admin             (Status: 301) [Size: 317] [--> http://10.0.0.5/wp-admin/]
+===============================================================
+Finished
+===============================================================

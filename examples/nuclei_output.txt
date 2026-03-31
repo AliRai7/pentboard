@@ -1,0 +1,19 @@
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.2.0
+
+[INF] Current nuclei version: v3.2.0
+[INF] Current nuclei-templates version: v9.8.0
+[INF] Templates loaded: 7842
+[INF] Targets loaded: 4
+
+[2026-03-30 10:30:00] [cve-2021-44228] [http] [critical] http://10.0.0.5:8443/
+[2026-03-30 10:30:05] [cve-2023-22515] [http] [critical] http://10.0.0.5:8080/setup/setupadministrator.action
+[2026-03-30 10:30:10] [default-mysql-credentials] [network] [high] 10.0.0.5:3306
+[2026-03-30 10:30:15] [directory-listing] [http] [medium] http://10.0.0.5/uploads/
+[2026-03-30 10:30:20] [missing-x-frame-options] [http] [low] http://10.0.0.5/
+[2026-03-30 10:30:25] [robots-txt] [http] [info] http://10.0.0.5/robots.txt
+[2026-03-30 10:30:30] [tech-detect:apache] [http] [info] http://10.0.0.5/
+[2026-03-30 10:30:35] [ssh-weak-algo] [network] [low] 10.0.0.1:22

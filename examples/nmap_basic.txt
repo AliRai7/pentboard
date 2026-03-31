@@ -1,0 +1,47 @@
+# Nmap 7.94SVN scan initiated Mon Mar 30 10:00:00 2026 as: nmap -sV -O -oN scan.txt 10.0.0.0/28
+Nmap scan report for gateway.acme.local (10.0.0.1)
+Host is up (0.0010s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 8.9p1 Ubuntu 3ubuntu0.6
+53/tcp   open  domain      ISC BIND 9.18.18
+80/tcp   open  http        nginx 1.24.0
+443/tcp  open  ssl/https   nginx 1.24.0
+MAC Address: AA:BB:CC:DD:EE:01
+OS details: Linux 5.15 - 6.1
+Aggressive OS guesses: Ubuntu 22.04 (99%), Debian 12 (95%)
+
+Nmap scan report for web01.acme.local (10.0.0.5)
+Host is up (0.0015s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT      STATE SERVICE     VERSION
+22/tcp    open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.11
+80/tcp    open  http        Apache httpd 2.4.41 ((Ubuntu))
+443/tcp   open  ssl/https   Apache httpd 2.4.41
+3306/tcp  open  mysql       MySQL 8.0.36-0ubuntu0.20.04.1
+8080/tcp  open  http-proxy  Squid http proxy 4.10
+8443/tcp  open  ssl/https   Apache Tomcat 9.0.31
+9090/tcp  open  http        Cockpit web service
+MAC Address: AA:BB:CC:DD:EE:05
+OS details: Linux 5.4
+Aggressive OS guesses: Ubuntu 20.04 (98%), Ubuntu 18.04 (90%)
+
+Nmap scan report for db01.acme.local (10.0.0.10)
+Host is up (0.0008s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT      STATE SERVICE     VERSION
+22/tcp    open  ssh         OpenSSH 8.9p1
+5432/tcp  open  postgresql  PostgreSQL 15.4
+MAC Address: AA:BB:CC:DD:EE:10
+Running: Linux 6.X
+OS details: Linux 6.1
+
+Nmap scan report for 10.0.0.15
+Host is up (0.0020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         vsftpd 3.0.3
+22/tcp    open  ssh         OpenSSH 7.6p1
+2049/tcp  open  nfs         3-4 (RPC #100003)
+
+# Nmap done at Mon Mar 30 10:05:00 2026 -- 16 IP addresses (4 hosts up) scanned in 300.00 seconds

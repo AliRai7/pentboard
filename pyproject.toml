@@ -1,0 +1,65 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pentboard"
+version = "0.1.0"
+description = "Terminal Pentest Mission Control - A TUI dashboard for managing penetration testing engagements"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ali Rai", email = "alikor433@gmail.com" },
+]
+keywords = [
+    "pentesting",
+    "security",
+    "tui",
+    "terminal",
+    "cybersecurity",
+    "hacking",
+    "pentest",
+    "red-team",
+    "nmap",
+    "reconnaissance",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: System :: Networking",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "textual>=0.85.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "textual-dev>=1.0",
+]
+
+[project.scripts]
+pentboard = "pentboard.app:main"
+
+[project.urls]
+Homepage = "https://github.com/AliRai7/pentboard"
+Repository = "https://github.com/AliRai7/pentboard"
+Issues = "https://github.com/AliRai7/pentboard/issues"
+Documentation = "https://github.com/AliRai7/pentboard#readme"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
